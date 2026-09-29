@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cmGoldLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="cmTealLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="50%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="cmBgLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <filter id="crispShadowLogo" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Base Badge Background with Rounded Corners -->
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#cmBgLogo)" stroke="#1E293B" stroke-width="2" />
+  
+  <!-- Warm Golden Sun Horizon / Community Crest -->
+  <circle cx="60" cy="46" r="14" fill="url(#cmGoldLogo)" opacity="0.95" />
+  
+  <!-- Modern Geometric Architectural House Gables (Casa Mira Horizon) -->
+  <g filter="url(#crispShadowLogo)">
+    <!-- Primary Left Golden Gable (C Structure) -->
+    <path 
+      d="M 24 74 L 50 44 L 64 60 L 54 70 L 50 66 L 36 82 L 24 74 Z" 
+      fill="url(#cmGoldLogo)" 
+    />
+    
+    <!-- Secondary Interlocking Teal Gable (M Structure) -->
+    <path 
+      d="M 46 88 L 68 34 L 96 68 L 84 78 L 68 58 L 58 70 L 68 82 L 58 92 L 46 88 Z" 
+      fill="url(#cmTealLogo)" 
+    />
+    
+    <!-- Front Modern Facade Accents -->
+    <path 
+      d="M 38 84 L 82 84 L 82 92 L 38 92 Z" 
+      fill="url(#cmGoldLogo)" 
+      rx="2"
+    />
+    
+    <!-- Precision Doorway Cutout -->
+    <path 
+      d="M 54 80 L 66 80 L 66 92 L 54 92 Z" 
+      fill="#0F172A" 
+    />
+  </g>
+</svg>

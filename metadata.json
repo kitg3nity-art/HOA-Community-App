@@ -1,0 +1,10 @@
+{
+  "name": "Remix Casa Mira South HOA All-in-One App",
+  "description": "CommunityOS is a private AI-powered community management platform for Casa Mira South subdivision.\n\nIt connects residents, local businesses, services, announcements, events, marketplace activities, emergency information, and community history into one digital ecosystem.\n\nThe platform replaces scattered messaging groups and paper announcements with an organized community hub where residents can discover trusted services, communicate, participate, and preserve neighborhood memories.\n\nThe app includes a resident directory, service marketplace, announcement system, event calendar, emergency center, community archive, and AI assistant that helps residents find information quickly.\n\nThe long-term goal is to create a scalable Community Intelligence Network that can power subdivisions, villages, schools, churches, and organizations worldwide.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
